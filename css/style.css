@@ -1,3 +1,17 @@
+:root {
+  --bg-primay: #ffffff;
+  --bg-secondary: #f5f5f5;
+  --bg-tertiary: #000000;
+
+  --button-primary-bg: #b81515;
+  --button-hover: #8f0101;
+
+  --fg-primary: #222222;
+  --fg-secondary: #ffffff;
+
+  --fg-icons: #8c8c8c;
+}
+
 * {
   margin: 0;
   padding: 0;
