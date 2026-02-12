@@ -23,3 +23,31 @@
   font-family: "Montserrat", Arial, Helvetica, sans-serif;
   font-weight: normal;
 }
+
+body {
+  color: var(--text-primary-color);
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  width: 100%;
+  text-align: center;
+  margin: 0;
+  padding: 0 auto;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--primary-color);
+  border: none;
+  margin: 16px auto 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .section-title h2 {
+    font-size: 32px;
+    padding: 0 auto;
+  }
+}
