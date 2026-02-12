@@ -21,3 +21,14 @@
     font-size: 32px;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .hero-img {
+    background: url(../img/hero-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .hero h2 {
+    font-size: 32px;
+  }
+}
