@@ -31,8 +31,36 @@ input[type="checkbox"]:checked ~ nav {
 .list-links li a {
   text-decoration: none;
   color: var(--text-secondary-color);
+  font-weight: var(--menu-text-weight);
+  font-size: 24px;
 }
 
 nav {
   display: none;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    align-items: center;
+  }
+  .navigation-menu {
+    margin-top: 0;
+    width: 467px;
+  }
+  .navigation-menu label {
+    display: none;
+  }
+
+  .navigation-menu nav {
+    display: block;
+  }
+
+  .list-links {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list-links li {
+    margin: 0;
+  }
 }
