@@ -1,0 +1,16 @@
+header {
+  background-color: var(--bg-tertiary);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 37px 48px;
+}
+
+.logo {
+  display: inline-block;
+}
+
+nav {
+  display: none;
+}
