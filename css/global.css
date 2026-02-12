@@ -1,0 +1,25 @@
+:root {
+  --bg-primay: #ffffff;
+  --bg-secondary: #f5f5f5;
+  --bg-tertiary: #000000;
+
+  --primary-color: #b81515;
+  --secondary-color: #8f0101;
+
+  --text-primary-color: #222222;
+  --text-secondary-color: #ffffff;
+
+  --fg-icons: #8c8c8c;
+
+  --title-weight: 700;
+  --text-weight: 400;
+  --menu-text-weight: 500;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", Arial, Helvetica, sans-serif;
+  font-weight: normal;
+}
