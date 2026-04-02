@@ -1,0 +1,49 @@
+.card {
+  color: var(--text-secondary-color);
+  height: 288px;
+  text-align: center;
+  margin: 0 24px 24px;
+  border-radius: 16px;
+  background-color: var(--bg-tertiary);
+}
+
+.card header {
+  display: block;
+  background-color: transparent;
+  padding: 24px 16px 6px;
+  position: static;
+}
+
+.card p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+}
+
+.card h3 {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+  margin: 16px 0 24px 0;
+}
+
+.card span {
+  font-size: 32px;
+  font-weight: var(--title-weight);
+  display: inline-block;
+  margin-bottom: 24px;
+}
+
+.card footer {
+  margin: 0 16px;
+}
+
+.card a {
+  display: block;
+  height: 64px;
+  line-height: 64px;
+  text-decoration: none;
+  color: var(--text-secondary-color);
+  background-color: var(--primary-color);
+  border-radius: 8px;
+  font-size: 20px;
+  font-weight: var(--title-weight);
+}
