@@ -35,15 +35,3 @@
 .card footer {
   margin: 0 16px;
 }
-
-.card a {
-  display: block;
-  height: 64px;
-  line-height: 64px;
-  text-decoration: none;
-  color: var(--text-secondary-color);
-  background-color: var(--primary-color);
-  border-radius: 8px;
-  font-size: 20px;
-  font-weight: var(--title-weight);
-}
