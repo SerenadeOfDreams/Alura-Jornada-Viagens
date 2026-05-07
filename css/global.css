@@ -64,3 +64,9 @@ body {
     padding: 0 auto;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  .button:hover {
+    background-color: var(--secondary-color);
+  }
+}
