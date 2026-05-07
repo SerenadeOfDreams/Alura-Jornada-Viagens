@@ -1,8 +1,15 @@
+.offers-cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
 .card {
   color: var(--text-secondary-color);
+  width: 312px;
   height: 288px;
   text-align: center;
-  margin: 0 24px 24px;
   border-radius: 16px;
   background-color: var(--bg-tertiary);
 }
@@ -35,9 +42,45 @@
   padding: 24px 0;
 }
 
+.card.japao {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/card/mobile/bg-card-japao-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.card.san-andreas {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/card/mobile/bg-card-san-andreas-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.card.paraiba {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/card/mobile/bg-card-paraiba-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.card.manaus {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/card/mobile/bg-card-manaus-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .offers-cards {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
 @media screen and (min-width: 1024px) {
   .card {
-    width: 588px;
+    width: 470px;
     height: 308px;
   }
 
@@ -47,5 +90,46 @@
 
   .card span {
     font-size: 40px;
+  }
+
+  .card.japao {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/card/desktop/bg-card-japao-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .card.san-andreas {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/card/desktop/bg-card-san-andreas-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .card.paraiba {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/card/desktop/bg-card-paraiba-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .card.manaus {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/card/desktop/bg-card-manaus-dektop.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1270px) {
+  .card {
+    width: 588px;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .offers-cards {
+    width: 1250px;
+    margin: 0 auto;
   }
 }
