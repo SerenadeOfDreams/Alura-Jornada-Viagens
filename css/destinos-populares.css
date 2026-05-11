@@ -1,0 +1,6 @@
+.destinos .item header {
+  display: block;
+  background-color: transparent;
+  padding: 24px 16px 6px;
+  position: static;
+}
