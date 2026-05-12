@@ -15,8 +15,7 @@
 }
 
 .destinos .item header {
-  flex-direction: column;
-  gap: 24px;
+  display: contents;
   background-color: transparent;
   padding: 0 0;
   position: static;
@@ -45,7 +44,7 @@
 }
 
 .destinos .item footer {
-  width: 312px;
+  width: 100%;
   text-align: center;
 }
 
@@ -55,14 +54,12 @@
   }
 
   .destinos .img-item.tokyo {
-    width: 648px;
     height: 452px;
     background: url(../img/destinos-populares/mobile/tokyo-tablet.jpg) no-repeat;
     background-size: cover;
   }
 
   .destinos .img-item.osaka {
-    width: 648px;
     height: 452px;
     background: url(../img/destinos-populares/mobile/osaka-tablet.jpg) no-repeat;
     background-size: cover;
