@@ -1,6 +1,94 @@
+.destinos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.destinos .item {
+  text-align: left;
+  color: var(--text-primary-color);
+  display: flex;
+  flex-direction: column;
+  width: 312px;
+  gap: 24px;
+}
+
 .destinos .item header {
-  display: block;
+  flex-direction: column;
+  gap: 24px;
   background-color: transparent;
-  padding: 24px 16px 6px;
+  padding: 0 0;
   position: static;
+}
+
+.destinos .item h4 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+}
+
+.destinos .item p {
+  font-size: 20px;
+  font-weight: var(--text-weight);
+}
+
+.destinos .img-item.tokyo {
+  height: 360px;
+  background: url(../img/destinos-populares/mobile/tokyo-celular.jpg) no-repeat;
+  background-size: cover;
+}
+
+.destinos .img-item.osaka {
+  height: 360px;
+  background: url(../img/destinos-populares/mobile/osaka-celular.jpg);
+  background-size: cover;
+}
+
+.destinos .item footer {
+  width: 312px;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .destinos .item {
+    width: 648px;
+  }
+
+  .destinos .img-item.tokyo {
+    width: 648px;
+    height: 452px;
+    background: url(../img/destinos-populares/mobile/tokyo-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .destinos .img-item.osaka {
+    width: 648px;
+    height: 452px;
+    background: url(../img/destinos-populares/mobile/osaka-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .destinos .item footer {
+    width: 280px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .destinos {
+    flex-direction: row;
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .destinos .item {
+    width: 588px;
+  }
+
+  .destinos .img-item.tokyo {
+    width: 588px;
+  }
+
+  .destinos .img-item.osaka {
+    width: 588px;
+  }
 }
