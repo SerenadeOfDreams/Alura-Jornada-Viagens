@@ -10,7 +10,6 @@
   color: var(--text-primary-color);
   display: flex;
   flex-direction: column;
-  width: 312px;
   gap: 24px;
 }
 
@@ -45,14 +44,9 @@
 
 .destinos .item footer {
   width: 100%;
-  text-align: center;
 }
 
 @media screen and (min-width: 768px) {
-  .destinos .item {
-    width: 648px;
-  }
-
   .destinos .img-item.tokyo {
     height: 452px;
     background: url(../img/destinos-populares/mobile/tokyo-tablet.jpg) no-repeat;
@@ -67,6 +61,12 @@
 
   .destinos .item footer {
     width: 280px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .destinos .item {
+    width: 648px;
   }
 }
 
