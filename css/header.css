@@ -1,4 +1,4 @@
-header {
+.main-header {
   background-color: var(--bg-tertiary);
   display: flex;
   flex-direction: row;
@@ -34,6 +34,10 @@ input[type="checkbox"]:checked ~ nav {
 
 .list-links li {
   margin: 16px 30px;
+}
+
+li::marker {
+  color: transparent;
 }
 
 .list-links li a {

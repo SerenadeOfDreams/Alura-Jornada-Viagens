@@ -38,6 +38,11 @@
   display: inline-block;
 }
 
+.offers-cards .card .separador {
+  padding: 0;
+  width: 312px;
+}
+
 .card footer {
   padding: 24px 0;
 }
@@ -92,6 +97,10 @@
     font-size: 40px;
   }
 
+  .offers-cards .card .separador {
+    width: 470px;
+  }
+
   .card.japao {
     background:
       linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
@@ -123,6 +132,10 @@
 
 @media screen and (min-width: 1270px) {
   .card {
+    width: 588px;
+  }
+
+  .offers-cards .card .separador {
     width: 588px;
   }
 }
