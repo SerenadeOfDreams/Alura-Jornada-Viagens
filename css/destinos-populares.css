@@ -86,9 +86,15 @@
 
   .destinos .img-item.tokyo {
     width: 588px;
+    background: url(../img/destinos-populares/desktop/tokyo-desktop.jpg)
+      no-repeat;
+    background-size: cover;
   }
 
   .destinos .img-item.osaka {
     width: 588px;
+    background: url(../img/destinos-populares/desktop/osaka-desktop.jpg)
+      no-repeat;
+    background-size: cover;
   }
 }
