@@ -30,7 +30,6 @@ body {
 
 .hero {
   width: 100%;
-  padding: 0 0 88px;
 }
 
 section {
@@ -107,12 +106,8 @@ a {
 
 @media screen and (min-width: 1024px) {
   section {
-    width: 100%;
-    padding: 0 0 104px;
-  }
-
-  .hero {
-    padding: 0 0 104px;
+    width: 900px;
+    padding-bottom: 104px;
   }
 
   .section-title {
@@ -121,5 +116,11 @@ a {
 
   .button:hover {
     background-color: var(--secondary-color);
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  section {
+    width: 1200px;
   }
 }
