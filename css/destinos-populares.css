@@ -20,16 +20,6 @@
   position: static;
 }
 
-.destinos .item h4 {
-  font-size: 28px;
-  font-weight: var(--title-weight);
-}
-
-.destinos .item p {
-  font-size: 20px;
-  font-weight: var(--text-weight);
-}
-
 .destinos .img-item.tokyo {
   height: 360px;
   background: url(../img/destinos-populares/mobile/tokyo-celular.jpg) no-repeat;

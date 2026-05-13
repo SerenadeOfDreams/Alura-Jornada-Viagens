@@ -22,8 +22,6 @@
 
 .categoria .text {
   display: inline-block;
-  font-size: 30px;
-  font-weight: var(--title-weight);
   color: var(--text-primary-color);
   margin-top: 24px;
 }
