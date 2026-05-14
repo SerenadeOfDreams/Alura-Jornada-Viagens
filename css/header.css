@@ -52,7 +52,7 @@ nav {
 }
 
 @media screen and (min-width: 768px) {
-  header {
+  .main-header {
     align-items: center;
   }
 
@@ -79,7 +79,7 @@ nav {
 }
 
 @media screen and (min-width: 1024px) {
-  header {
+  .main-header {
     padding-left: 120px;
     padding-right: 120px;
   }
@@ -110,7 +110,7 @@ nav {
 }
 
 @media screen and (min-width: 1920px) {
-  header {
+  .main-header {
     padding-left: 160px;
     padding-right: 160px;
   }
