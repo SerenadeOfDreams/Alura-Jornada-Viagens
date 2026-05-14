@@ -1,0 +1,54 @@
+.depoimentos-container {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.depoimento {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.depoimento p {
+  font-size: 16px;
+}
+
+.depoimento footer {
+  display: grid;
+  grid-template-columns: 86px 1fr;
+  height: 86px;
+  gap: 24px;
+}
+
+.depoimento .user-picture {
+  width: 86px;
+}
+
+.depoimento .profile-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+}
+
+.depoimento .profile-content h4 {
+  font-size: 20px;
+}
+
+.depoimento .profile-content .nota {
+  display: inline-block;
+  line-height: 32px;
+  height: 32px;
+}
+
+.depoimento .profile-content .star {
+  font-size: 39px;
+  color: var(--primary-color);
+}
+
+@media screen and (min-width: 1440px) {
+  .depoimentos-container {
+    flex-direction: row;
+  }
+}
