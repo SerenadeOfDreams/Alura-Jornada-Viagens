@@ -7,7 +7,7 @@
   position: relative;
 }
 
-.home {
+.main-header .home {
   display: inline-block;
 }
 
@@ -84,7 +84,7 @@ nav {
     padding-right: 120px;
   }
 
-  .home {
+  .main-header .home {
     width: 260px;
     height: 64px;
   }
