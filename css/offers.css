@@ -38,7 +38,7 @@
   display: inline-block;
 }
 
-.offers-cards .card .separador {
+.offers-cards .card .separator {
   padding: 0;
   width: 312px;
 }
@@ -97,7 +97,7 @@
     font-size: 40px;
   }
 
-  .offers-cards .card .separador {
+  .offers-cards .card .separator {
     width: 438px;
   }
 
