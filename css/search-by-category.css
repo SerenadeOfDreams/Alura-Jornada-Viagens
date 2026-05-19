@@ -1,11 +1,11 @@
-.categorias-cards {
+.categories-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
 }
 
-.categoria {
+.category {
   text-align: center;
   width: 312px;
   height: 220px;
@@ -14,29 +14,29 @@
   padding: 41px 0;
 }
 
-.categoria .material-symbols-outlined {
+.category .material-symbols-outlined {
   display: block;
   font-size: 80px;
   color: var(--fg-icons);
 }
 
-.categoria .text {
+.category .text {
   display: inline-block;
   color: var(--text-primary-color);
   margin-top: 24px;
 }
 
-.pacotes-internacionais {
+.nacionals {
   padding: 24px 0;
 }
 
 @media screen and (min-width: 768px) {
-  .busque-por-categoria .section-title {
+  .search-by-category .section-title {
     width: 366px;
     /* margin: 0 auto; */
   }
 
-  .categorias-cards {
+  .categories-cards {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -44,21 +44,21 @@
 }
 
 @media screen and (min-width: 1024px) {
-  .categoria {
+  .category {
     width: 412px;
   }
 
-  .pacotes-internacionais {
+  .nacionals {
     padding: 41px 0;
   }
 }
 
 @media screen and (min-width: 1440px) {
-  .categoria {
+  .category {
     width: 281px;
   }
 
-  .pacotes-internacionais {
+  .nacionals {
     padding: 24px 0;
   }
 }

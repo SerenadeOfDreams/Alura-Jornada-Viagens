@@ -1,9 +1,9 @@
 @import url(global.css);
 @import url(header.css);
 @import url(hero.css);
-@import url(ofertas.css);
-@import url(busque-por-categoria.css);
-@import url(destinos-populares.css);
-@import url(condicoes-de-pagamento.css);
-@import url(depoimentos.css);
+@import url(offers.css);
+@import url(search-by-category.css);
+@import url(popular-destinations.css);
+@import url(payment-conditions.css);
+@import url(testimonies.css);
 @import url(footer.css);
