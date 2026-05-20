@@ -51,4 +51,8 @@
   .testimonies-container {
     flex-direction: row;
   }
+
+  .testimony {
+    width: 384px;
+  }
 }
