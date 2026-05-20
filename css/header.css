@@ -47,6 +47,10 @@ li::marker {
   font-size: 24px;
 }
 
+.list-links li a.active {
+  text-decoration: underline;
+}
+
 nav {
   display: none;
 }
