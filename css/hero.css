@@ -32,6 +32,12 @@
   gap: 32px;
 }
 
+.travel-combos-hero-title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
 .travel-combos-hero h2 {
   font-size: 48px;
   font-weight: var(--title-weight);

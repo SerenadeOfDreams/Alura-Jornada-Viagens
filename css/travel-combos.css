@@ -1,5 +1,100 @@
-.travel-combos-hero-title {
+.payment-info {
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 24px;
+}
+
+.payment-info .text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.payment-info h2 {
+  font-size: 40px;
+  font-weight: var(--title-weight);
+}
+
+.payment-info .img-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 254px 182px;
+  gap: 24px;
+  height: 460px;
+  width: 100%;
+}
+
+.payment-info .temple {
+  background: url(../img/pacotes-de-viagens/pagamento/mobile/temple-celular.jpg)
+    no-repeat;
+  background-size: cover;
+}
+
+.payment-info .night-lights {
+  background: url(../img/pacotes-de-viagens/pagamento/mobile/night-lights-celular.jpg)
+    no-repeat;
+  background-size: cover;
+}
+
+.payment-info .staircase {
+  grid-column: span 2;
+  background: url(../img/pacotes-de-viagens/pagamento/mobile/staircase-celular.jpg)
+    no-repeat;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  .payment-info .temple {
+    background: url(../img/pacotes-de-viagens/pagamento/mobile/temple-tablet.jpg)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .payment-info .night-lights {
+    background: url(../img/pacotes-de-viagens/pagamento/mobile/night-lights-tablet.jpg)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .payment-info .staircase {
+    grid-column: span 2;
+    background: url(../img/pacotes-de-viagens/pagamento/mobile/staircase-tablet.jpg)
+      no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .payment-info {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .payment-info .text-content {
+    width: 384px;
+    padding-right: 23px;
+  }
+
+  .payment-info .img-content {
+    width: 790px;
+  }
+
+  .payment-info .temple {
+    background: url(../img/pacotes-de-viagens/pagamento/desktop/temple-desktop.jpg)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .payment-info .night-lights {
+    background: url(../img/pacotes-de-viagens/pagamento/desktop/night-lights-desktop.jpg)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .payment-info .staircase {
+    grid-column: span 2;
+    background: url(../img/pacotes-de-viagens/pagamento/desktop/staircase-desktop.jpg)
+      no-repeat;
+    background-size: cover;
+  }
 }
