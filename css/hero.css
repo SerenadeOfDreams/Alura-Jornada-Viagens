@@ -54,6 +54,7 @@
 
 .travel-combos-hero p {
   color: var(--text-secondary-color);
+  line-height: 1.5;
 }
 
 .travel-combos-header-hero-img {
@@ -100,7 +101,7 @@
       url(../img/pacotes-de-viagens/header-hero/banner-japao-tablet.jpg)
         no-repeat;
     background-size: cover;
-    padding: 65px 200px 0 70px;
+    padding: 65px 145px 0 70px;
   }
 
   .travel-combos-hero p {
@@ -152,6 +153,9 @@
   /* PACOTES DE VIAGENS */
   .travel-combos-header-hero-img {
     padding: 158.5px 741px 158.5px 120px;
+    background: url(../img/pacotes-de-viagens/header-hero/banner-japao-desktop.jpg)
+      no-repeat;
+    background-size: cover;
   }
 
   .travel-combos-footer-hero-img {
