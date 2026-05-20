@@ -28,7 +28,11 @@ body {
   color: var(--text-primary-color);
 }
 
-.hero {
+.main-hero {
+  width: 100%;
+}
+
+.travel-combos-hero {
   width: 100%;
 }
 

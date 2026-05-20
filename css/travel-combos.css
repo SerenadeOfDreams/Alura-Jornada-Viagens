@@ -1,0 +1,5 @@
+.travel-combos-hero-title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
