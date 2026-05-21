@@ -1,4 +1,6 @@
-.tokyo-post h2 {
+/* POST SOBRE TOKYO */
+.tokyo-post h2,
+.recommended-posts h2 {
   font-size: 32px;
 }
 
@@ -8,7 +10,8 @@
   gap: 32px;
 }
 
-.tokyo-post-info p {
+.tokyo-post-info p,
+.recommended-posts p {
   line-height: 1.5;
 }
 
@@ -47,6 +50,54 @@
   padding-top: 8px;
 }
 
+/*  */
+
+/* POSTS RECOMENDADOS */
+.recommended-posts-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.recommended-posts .item {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  color: var(--text-primary-color);
+  gap: 24px;
+}
+
+.recommended-posts .item header {
+  display: contents;
+  background-color: transparent;
+  padding: 0 0;
+  position: static;
+}
+
+.recommended-posts .img-item.osaka {
+  height: 300px;
+  background: url(../img/blog/osaka/recommended-osaka-celular.jpg) no-repeat;
+  background-size: cover;
+}
+
+.recommended-posts .img-item.hiroshima {
+  height: 300px;
+  background: url(../img/blog/hiroshima/recommended-hiroshima-celular.jpg)
+    no-repeat;
+  background-size: cover;
+}
+
+.recommended-posts .img-item.kyoto {
+  height: 300px;
+  background: url(../img/blog/kyoto/recommended-kyoto-celular.jpg) no-repeat;
+  background-size: cover;
+}
+
+.recommended-posts .item footer {
+  width: 100%;
+}
+/*  */
+
 @media screen and (min-width: 768px) {
   .tokyo-post-info .arrival {
     flex-direction: row;
@@ -64,6 +115,24 @@
   .tokyo-post-info .tokyo-2-tablet {
     display: block;
   }
+
+  /* POSTS RECOMENDADOS */
+  .recommended-posts .img-item.osaka {
+    background: url(../img/blog/osaka/recommended-osaka-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .recommended-posts .img-item.hiroshima {
+    background: url(../img/blog/hiroshima/recommended-hiroshima-tablet.jpg)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .recommended-posts .img-item.kyoto {
+    background: url(../img/blog/kyoto/recommended-kyoto-tablet.jpg) no-repeat;
+    background-size: cover;
+  }
+  /*  */
 }
 
 @media screen and (min-width: 1024px) {
@@ -96,4 +165,30 @@
   .tokyo-post-info .accommodation img {
     width: 1200px;
   }
+
+  /* POSTS RECOMENDADOS */
+  .recommended-posts-container {
+    flex-direction: row;
+  }
+
+  .recommended-posts .item {
+    width: 384px;
+  }
+
+  .recommended-posts .img-item.osaka {
+    background: url(../img/blog/osaka/recommended-osaka-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .recommended-posts .img-item.hiroshima {
+    background: url(../img/blog/hiroshima/recommended-hiroshima-desktop.jpg)
+      no-repeat;
+    background-size: cover;
+  }
+
+  .recommended-posts .img-item.kyoto {
+    background: url(../img/blog/kyoto/recommended-kyoto-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+  /*  */
 }
