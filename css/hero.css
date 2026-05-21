@@ -75,6 +75,49 @@
   background-size: cover;
 }
 /*  */
+
+/* BLOG */
+.blog-hero {
+  width: 100%;
+}
+
+.blog-header-hero-img {
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../img/blog/header-hero/blog-header-hero-celular.jpg) no-repeat;
+  background-size: cover;
+  padding: 81px 24px;
+}
+
+.blog-header-hero-title {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.blog-header-hero-title h2 {
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  color: var(--text-secondary-color);
+}
+
+.blog-header-hero-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--primary-color);
+  border: none;
+}
+
+.blog-header-hero-text p {
+  color: var(--text-secondary-color);
+  line-height: 1.5;
+}
+/*  */
+
 @media screen and (min-width: 768px) {
   .main-header-hero-img {
     height: 620px;
@@ -114,6 +157,21 @@
     background-size: cover;
   }
   /*  */
+
+  /* BLOG */
+  .blog-header-hero-img {
+    height: 620px;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/blog/header-hero/blog-header-hero-tablet.jpg) no-repeat;
+    background-size: cover;
+    padding: 158px 95px;
+  }
+
+  .blog-header-hero-text p {
+    font-size: 32px;
+  }
+  /*  */
 }
 
 @media screen and (min-width: 1024px) {
@@ -141,6 +199,16 @@
     height: 600px;
   }
   /*  */
+
+  /* BLOG */
+  .blog-header-hero-img {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/blog/header-hero/blog-header-hero-desktop.jpg) no-repeat;
+    background-size: cover;
+    padding: 100px 140px;
+  }
+  /*  */
 }
 
 @media screen and (min-width: 1440px) {
@@ -164,4 +232,9 @@
     background-size: cover;
   }
   /*  */
+
+  /* BLOG */
+  .blog-header-hero-img {
+    padding: 158.5px 741px 158.5px 120px;
+  }
 }
