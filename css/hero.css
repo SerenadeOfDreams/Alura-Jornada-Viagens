@@ -1,3 +1,12 @@
+/* LARGURA GERAL DE HERO */
+.main-hero,
+.blog-hero,
+.travel-combos-hero,
+.contact-hero {
+  width: 100%;
+}
+/*  */
+
 .main-header-hero-img {
   width: 100%;
   height: 400px;
@@ -25,40 +34,46 @@
   background-size: cover;
 }
 
-/* PACOTES DE VIAGENS */
-.travel-combos-header-hero-img {
-  padding: 65px 24px;
-  display: flex;
-  flex-direction: column;
-  gap: 32px;
-}
-
-.travel-combos-hero-title {
+/* ESTILOS GERAIS DE HEADER HERO COM TEXTO */
+.travel-combos-hero-title,
+.blog-header-hero-title,
+.contact-header-hero-title {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
 
-.travel-combos-hero h2 {
-  font-size: 48px;
-  font-weight: var(--title-weight);
-  color: var(--text-secondary-color);
-}
-
-.travel-combos-hero hr {
+.travel-combos-hero hr,
+.blog-hero hr,
+.contact-hero hr {
   width: 180px;
   height: 4px;
   background-color: var(--primary-color);
   border: none;
 }
 
-.travel-combos-hero p {
+.blog-hero h2,
+.travel-combos-hero h2,
+.contact-hero h2 {
+  font-size: 48px;
+  font-weight: var(--title-weight);
+  color: var(--text-secondary-color);
+}
+
+.blog-hero p,
+.travel-combos-hero p,
+.contact-hero p {
   color: var(--text-secondary-color);
   line-height: 1.5;
 }
+/*  */
 
+/* PACOTES DE VIAGENS */
 .travel-combos-header-hero-img {
-  width: 100%;
+  padding: 65px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
   height: 460px;
   background:
     linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
@@ -68,7 +83,6 @@
 }
 
 .travel-combos-footer-hero-img {
-  width: 100%;
   height: 400px;
   background: url(../img/pacotes-de-viagens/footer-hero/travel-combos-footer-hero-celular.jpg)
     no-repeat;
@@ -77,10 +91,6 @@
 /*  */
 
 /* BLOG */
-.blog-hero {
-  width: 100%;
-}
-
 .blog-header-hero-img {
   height: 460px;
   display: flex;
@@ -92,29 +102,19 @@
   background-size: cover;
   padding: 81px 24px;
 }
+/*  */
 
-.blog-header-hero-title {
+/* CONTATO */
+.contact-header-hero-img {
+  height: 460px;
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(../img/contato/header-hero/contact-header-hero-celular.jpg) no-repeat;
+  background-size: cover;
+  padding: 81px 24px;
   display: flex;
   flex-direction: column;
-  gap: 16px;
-}
-
-.blog-header-hero-title h2 {
-  font-size: 48px;
-  font-weight: var(--title-weight);
-  color: var(--text-secondary-color);
-}
-
-.blog-header-hero-title hr {
-  width: 180px;
-  height: 4px;
-  background-color: var(--primary-color);
-  border: none;
-}
-
-.blog-header-hero-text p {
-  color: var(--text-secondary-color);
-  line-height: 1.5;
+  gap: 32px;
 }
 /*  */
 
@@ -136,6 +136,14 @@
     background-size: cover;
   }
 
+  /* ESTILOS GERAIS DE HEADER HERO COM TEXTO */
+  .blog-hero p,
+  .travel-combos-hero p,
+  .contact-hero p {
+    font-size: 32px;
+  }
+  /*  */
+
   /* PACOTES DE VIAGENS */
   .travel-combos-header-hero-img {
     height: 620px;
@@ -145,10 +153,6 @@
         no-repeat;
     background-size: cover;
     padding: 65px 145px 0 70px;
-  }
-
-  .travel-combos-hero p {
-    font-size: 32px;
   }
 
   .travel-combos-footer-hero-img {
@@ -167,9 +171,16 @@
     background-size: cover;
     padding: 158px 95px;
   }
+  /*  */
 
-  .blog-header-hero-text p {
-    font-size: 32px;
+  /* CONTATO */
+  .contact-header-hero-img {
+    height: 620px;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/contato/header-hero/contact-header-hero-tablet.jpg) no-repeat;
+    background-size: cover;
+    padding: 182px 94px;
   }
   /*  */
 }
@@ -237,4 +248,15 @@
   .blog-header-hero-img {
     padding: 158.5px 741px 158.5px 120px;
   }
+  /*  */
+
+  /* CONTATO */
+  .contact-header-hero-img {
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+      url(../img/contato/header-hero/contact-header-hero-desktop.jpg) no-repeat;
+    background-size: cover;
+    padding: 209.26px 741px 155.74px 120px;
+  }
+  /*  */
 }
