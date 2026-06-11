@@ -25,6 +25,7 @@
 .contact-form input,
 .contact-form textarea {
   width: 100%;
+  font-size: 20px;
 }
 
 .contact-form input {
@@ -85,6 +86,16 @@
 }
 
 @media screen and (min-width: 1440px) {
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 30px;
+  }
+
+  .contact-form ::placeholder,
+  .contact-form label {
+    font-size: 30px;
+  }
+
   .contact-form .phone-and-email {
     flex-direction: row;
   }
